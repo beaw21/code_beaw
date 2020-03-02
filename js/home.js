@@ -1,0 +1,9 @@
+$(document).ready(function()
+{
+	$interval 
+	$(document).on("click","#btnSend",function()
+	{
+		console.log("okkk");
+		sendChat($("#txtChat").val());
+	})
+});
